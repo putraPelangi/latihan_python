@@ -4,5 +4,14 @@ import sys
 import requests
 
 
-name = input("your name: ")
-print("Hello, ", name)
+# print(sys.version)
+print(sys.executable)
+
+
+def greet(who_to_greet):
+    greeting = "Helo,{}".format(who_to_greet)
+    return greeting
+
+
+r = requests.get("https://google.com")
+print(r.status_code)
