@@ -35,3 +35,9 @@ popped_motorcycle = motorcycles.pop()
 print(motorcycles)
 print(popped_motorcycle)
 
+# hapus list berdasarkan value
+motorcycles = ["honda", "yamaha", "suzuki", "ducati"]
+print(motorcycles)
+motorcycles.remove("ducati")
+print(motorcycles)
+
