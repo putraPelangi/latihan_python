@@ -10,3 +10,10 @@ print(motorcycles)
 motorcycles.append("ducati")
 print(motorcycles)
 
+# menambah isi list dari kosong dengan append
+motorcycles = []
+motorcycles.append("honda")
+motorcycles.append("yamaha")
+motorcycles.append("suzuki")
+print(motorcycles)
+
