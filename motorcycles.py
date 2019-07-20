@@ -28,3 +28,10 @@ print(motorcycles)
 del motorcycles[1]
 print(motorcycles)
 
+# use pop untuk cek list terakhir
+motorcycles = ["honda", "yamaha", "suzuki"]
+print(motorcycles)
+popped_motorcycle = motorcycles.pop()
+print(motorcycles)
+print(popped_motorcycle)
+
