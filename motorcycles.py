@@ -22,6 +22,7 @@ motorcycles = ["honda", "yamaha", "suzuki"]
 motorcycles.insert(0, "ducati")
 print(motorcycles)
 
+# menghapus isi list
 motorcycles = ["honda", "yamaha", "suzuki"]
 print(motorcycles)
 del motorcycles[0]
