@@ -50,6 +50,7 @@ print("\n\n")
 favorite_languages = {
     "jen": ["python", "ruby"],
     "sarah": ["c"],
+    "ambar": ["c"],
     "edward": ["ruby", "go"],
     "phil": ["python", "haskell"],
 }
